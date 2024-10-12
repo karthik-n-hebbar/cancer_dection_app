@@ -1,50 +1,48 @@
-# IMAGINOSIS: Deep Learning Disease Detection
+# CANCER DETECTION APP
 
 ## Introduction
-"IMAGINOSIS" is a revolutionary Deep Learning Disease Detection application that leverages AI algorithms to detect lung diseases, brain tumors, and tuberculosis by analyzing X-rays, CT scans, and MRI scans. The project aims to bridge the gap between AI advancements and healthcare, empowering healthcare professionals and patients with accurate, timely, and proactive disease detection.
+The Cancer Detection App is an innovative mobile application designed for the early detection of breast and lung cancer using advanced deep learning techniques. By leveraging Convolutional Neural Networks (CNNs) for the analysis of medical scans, this application aims to enhance patient outcomes through timely and accurate cancer diagnostics.
 
 ## Motivation
-The project is driven by the aspiration to transform medical diagnostics using AI. "IMAGINOSIS" recognizes the critical role of early and precise disease detection in improving patient outcomes. The project seeks to harness the potential of deep learning to revolutionize medical diagnosis and enhance individual health management.
+This project is motivated by the need to transform cancer diagnostics through AI advancements. With the rising incidence of breast and lung cancer, early detection is crucial for improving treatment success rates. The app empowers healthcare professionals and patients by providing reliable diagnostic support.
 
 ## Key Objectives
-- Rapid, reliable, and accurate diagnostic support for healthcare professionals.
-- Timely interventions and enhanced patient care through AI-powered insights.
-- Revolutionizing disease detection for lung diseases, brain tumors, and tuberculosis.
+- Enable accurate and timely detection of breast and lung cancer.
+- Enhance accessibility to cancer diagnostics without requiring user login.
+- Provide medical image analysis features for healthcare professionals through admin functionalities.
 
 ## Features and Functionalities
-- Multi-Disease Detection: Detects lung diseases, brain tumors, and tuberculosis.
-- Image Analysis: Analyzes X-rays, CT scans, and MRI scans to identify anomalies.
-- Accurate Diagnosis: Enhances diagnostic accuracy using AI algorithms.
-- Timely Results: Provides rapid disease detection for prompt interventions.
-- User-Friendly Interface: Offers an intuitive interface for healthcare professionals and patients.
+- **Multi-Cancer Detection:** Identifies breast and lung cancer through comprehensive medical image analysis.
+- **Image Analysis:** Analyzes CT and MRI scans to detect cancerous conditions.
+- **Accurate Diagnosis:** Utilizes sophisticated CNN models to improve diagnostic precision.
+- **User-Friendly Interface:** Offers an intuitive design for easy navigation and accessibility.
+- **Admin Functionality:** Allows secure login for admins to upload images and access medical datasets.
 
 ## Technology Stack
-- Language: Java (Android Studio), Python (Google Colab)
-- IDE: Android Studio
-- Framework: TensorFlow
+- **Languages:** Java (Android Studio), Python (Google Colab)
+- **IDE:** Android Studio
+- **Framework:** TensorFlow
+
+## Datasets Used
+- **Lung Cancer Detection:** LIDC-IDRI and a real-time dataset from Aarthi Scan Hospital.
+- **Breast Cancer Detection:** BreaKHis 400X Dataset
 
 ## Challenges Faced
-- Data Collection: Acquiring diverse and accurate medical imaging datasets.
-- Model Complexity: Training accurate deep learning models with optimization challenges.
-- Interpreting Medical Images: Fine-tuning models to decipher complex scans.
-- Class Imbalance: Addressing imbalanced medical datasets for unbiased model performance.
-- Model Deployment: Efficiently deploying trained models on a mobile app.
+- **Data Collection:** Gathering diverse and accurate medical imaging datasets for training.
+- **Model Complexity:** Training effective deep learning models while optimizing performance.
+- **Interpreting Medical Images:** Fine-tuning models to analyze complex scans accurately.
+- **Class Imbalance:** Addressing imbalanced datasets to ensure unbiased model performance.
+- **Model Deployment:** Efficiently integrating trained models into the mobile application.
+
+## Results
+- Achieved **97% accuracy** in lung cancer detection.
+- Achieved **95% accuracy** in breast cancer detection.
 
 ## Future Enhancements
-- Support for multi-modal imaging like ultrasound and PET scans.
-- Adoption of a scalable cloud-based architecture.
-- Continuous model learning with new medical data.
-- Incorporating user feedback to refine models.
-- Global accessibility with multiple languages and device compatibility.
-- Collaboration with healthcare institutions for clinical trials.
-- Extending capabilities to detect and diagnose rare medical conditions.
+- Integration of support for additional cancer types and imaging modalities.
+- Continuous model improvement through the inclusion of new medical data.
+- Expansion of app capabilities for rare cancer detection.
+- Incorporation of user feedback for model refinement.
 
 ## Summary
-"IMAGINOSIS" is a pioneering project merging AI and healthcare to redefine diagnostics. The project's commitment to advancing medical science is evident in its innovative approach. "IMAGINOSIS" represents the potential of AI to positively impact medical diagnostics and healthcare, promising a healthier future for all.
-
-**YouTube:** [Watch Project Presentation](https://youtu.be/NujueW2Nx90)
-
-## Dataset
-- **Lung Disease Analysis:** [Chest X-ray Dataset](https://www.kaggle.com/datasets/alifrahman/chestxraydataset)
-- **Brain Tumor Analysis:** [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
-- **Tuberculosis Analysis:** [TB Chest X-ray Datasets](https://www.kaggle.com/datasets/vbookshelf/da-and-db-tb-chest-x-ray-datasets)
+The Cancer Detection App represents a significant advancement in merging deep learning with healthcare, paving the way for more effective cancer diagnostics. The project's commitment to enhancing medical technology is reflected in its innovative approach, promising improved patient care and proactive cancer management.
